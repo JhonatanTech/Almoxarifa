@@ -12,15 +12,13 @@ include '../template/menu.html'; ?>
                 <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Nome</label>
+                        <input id="nome" type="text" class="validate">
+                        <label for="nome">Nome</label>
                     </div>
                     <div class="input-field col s6">
                         <input id="last_name" type="text" class="validate">
                         <label for="last_name">Sobrenome</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">work</i>
                         <select>
@@ -38,21 +36,16 @@ include '../template/menu.html'; ?>
                             <option value="2">Administrador</option>
                         </select>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">person</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">CPF</label>
-                        <span class="helper-text" data-error="CPF inválido" data-success="CPF válido"></span>
+                        <input id="cpf" type="text" class="validate">
+                        <label for="cpf">CPF</label>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">add_location</i>
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">CEP</label>
+                        <input id="cep" type="text" class="validate">
+                        <label for="cep">CEP</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">email</i>
                         <input id="email" type="email" class="validate">
@@ -60,11 +53,9 @@ include '../template/menu.html'; ?>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">phone</i>
-                        <input id="email" type="email" class="validate">
-                        <label for="email">Contato</label>
+                        <input id="contato" type="email" class="validate">
+                        <label for="contato">Contato</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">lock</i>
                         <input id="password" type="password" class="validate">
@@ -72,11 +63,9 @@ include '../template/menu.html'; ?>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">lock</i>
-                        <input id="password" type="password" class="validate">
-                        <label for="password">Confirme a senha</label>
+                        <input id="password2" type="password" class="validate">
+                        <label for="password2">Confirme a senha</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s12 center">
                         <button type="submit" class="waves-effect waves-light btn-large pink">Cadastrar</button>
                     </div>

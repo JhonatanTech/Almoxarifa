@@ -6,18 +6,14 @@
         <div class="row">
             <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Email</label>
+                    <div class="input-field col s6">
+                        <input id="email" type="text" class="validate">
+                        <label for="email">Email</label>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="last_name" type="password" class="validate">
-                        <label for="last_name">Senha</label>
+                    <div class="input-field col s6">
+                        <input id="pass" type="password" class="validate">
+                        <label for="pass">Senha</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s12 center">
                         <button type="submit" class="waves-effect waves-light btn-large pink">Cadastrar</button>
                     </div>

@@ -19,20 +19,16 @@ include '../template/menu.html'; ?>
                             <input class="file-path validate" type="text" placeholder="Selecione uma imagem para este produto">
                         </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">title</i>
-                        <input id="last_name" type="text" class="validate">
-                        <label for="last_name">Material</label>
+                        <input id="material" type="text" class="validate">
+                        <label for="material">Material</label>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">store</i>
-                        <input id="last_name" type="number" class="validate">
-                        <label for="last_name">Marca</label>
+                        <input id="marca" type="number" class="validate">
+                        <label for="marca">Marca</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">toc</i>
                         <select>
@@ -51,29 +47,21 @@ include '../template/menu.html'; ?>
                             <option value="3">Sala de aula</option>
                         </select>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">pin</i>
-                        <input id="last_name" type="number" class="validate">
-                        <label for="last_name">Quantidade</label>
+                        <input id="qty" type="number" class="validate">
+                        <label for="qty">Quantidade</label>
                     </div>
                     <div class="input-field col s6">
                         <i class="material-icons prefix">event</i>
                         <input type="text" class="datepicker">
-                        <label for="last_name">Validade</label>
+                        <label for="data">Validade</label>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">edit</i>
-                            <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
-                            <label for="textarea2">Observação</label>
-                        </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">edit</i>
+                        <textarea id="obs" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="obs">Observação</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s12 center">
                         <button type="submit" class="waves-effect waves-light btn-large pink">Cadastrar</button>
                     </div>

@@ -24,16 +24,11 @@
                         <input id="last_name" type="text" class="validate">
                         <label for="last_name">Solicitado por...</label>
                     </div>
-                </div>
-                <div class="row">
                     <div class="input-field col s6">
                         <i class="material-icons prefix">pin</i>
-                        <input id="last_name" type="number" class="validate">
-                        <label for="last_name">Quantidade</label>
+                        <input id="qty" type="number" class="validate">
+                        <label for="qty">Quantidade</label>
                     </div>
-                </div>
-
-                <div class="row">
                     <div class="input-field col s12 center">
                         <button type="submit" class="waves-effect waves-light btn-large pink">Cadastrar</button>
                     </div>

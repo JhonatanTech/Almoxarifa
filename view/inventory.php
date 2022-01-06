@@ -1,5 +1,5 @@
-<?php   include '../template/header.html';
-        include '../template/menu.html'; ?>
+<?php include '../template/header.html';
+include '../template/menu.html'; ?>
 
 <div class="container">
     <div class="row">
@@ -10,10 +10,37 @@
         <div class="row">
             <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s12">
+                    <div class="input-field col s3">
                         <i class="material-icons prefix">search</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Pesquisar</label>
+                        <input id="search" type="text" class="validate">
+                        <label for="search">Pesquisar</label>
+                    </div>
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">toc</i>
+                        <select>
+                            <option value="" disabled selected>Local de armazenamento</option>
+                            <option value="1">Biblioteca</option>
+                            <option value="2">Armazen</option>
+                            <option value="3">Cozinha</option>
+                        </select>
+                    </div>
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">toc</i>
+                        <select>
+                            <option value="" disabled selected>Categoria</option>
+                            <option value="1">Limpeza</option>
+                            <option value="2">Direção</option>
+                            <option value="3">Sala de aula</option>
+                        </select>
+                    </div>
+                    <div class="input-field col s3">
+                        <i class="material-icons prefix">store</i>
+                        <select>
+                            <option value="" disabled selected>Marca</option>
+                            <option value="1">Bic</option>
+                            <option value="2">Colgate</option>
+                            <option value="3">Jandaia</option>
+                        </select>
                     </div>
                 </div>
             </form>

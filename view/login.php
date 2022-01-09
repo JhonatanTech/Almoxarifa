@@ -2,8 +2,8 @@
 
 <div class="container">
     <div class="row">
-        <h2 class="center-align">Login</h2>
-        <div class="row">
+        <h1 class="center-align">Login</h1>
+        
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s6">

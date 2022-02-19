@@ -9,4 +9,3 @@ itensMenu.forEach(element => {
         element.classList.add('active')
     })
 });
-    

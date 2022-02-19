@@ -13,13 +13,13 @@ include '../template/menu.html'; ?>
                     <label for="nome">Nome</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Sobrenome</label>
+                    <input id="sobrenome" type="text" class="validate">
+                    <label for="sobrenome">Sobrenome</label>
                 </div>
                 <div class="input-field col s6">
                     <i class="material-icons prefix">groups</i>
-                    <select>
-                        <option value="" disabled selected>Selecione o setor</option>
+                    <select id="setor">
+                        <option value="" disabled selected class="teste">Selecione o setor</option>
                         <option value="1">Limpeza</option>
                         <option value="2">Direção</option>
                         <option value="3">Sala de aula</option>
@@ -27,12 +27,12 @@ include '../template/menu.html'; ?>
                 </div>
                 <div class="input-field col s6">
                     <i class="material-icons prefix">work</i>
-                    <input id="last_name" type="text" class="validate">
-                    <label for="last_name">Função</label>
+                    <input id="funcao" type="text" class="validate">
+                    <label for="funcao">Função</label>
                 </div>
                 <div class="input-field col s6">
                     <i class="material-icons prefix">supervisor_account</i>
-                    <select>
+                    <select id="acesso">
                         <option value="" disabled selected>Tipo de acesso</option>
                         <option value="1">Requisitante</option>
                         <option value="2">Almoxarife</option>
